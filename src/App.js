@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import { FormSubmit } from "./components/FormSubmit";
+import { SliderCard } from "./components/SliderCard";
+import FormComponent from "./components/FormComponent ";
+import { Form } from "./components/Form";
+import { AnimationDamo } from "./components/AnimationDamo";
+import { Dropdown_animated } from "./components/Dropdown_animated";
+import { TextShadow } from "./components/TextShadow";
+import TodoList from "./components/TodoList";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" container">
+      {/* <FormSubmit/> */}
+      {/* <TextShadow /> */}
+      <TodoList/>
+      {/* <SliderCard /> */}
+      {/* <FormComponent /> */}
+      {/* <Form/> */}
+      {/* <AnimationDamo /> */}
+      {/* <Dropdown_animated /> */}
     </div>
   );
 }
