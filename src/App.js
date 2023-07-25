@@ -7,12 +7,18 @@ import { AnimationDamo } from "./components/AnimationDamo";
 import { Dropdown_animated } from "./components/Dropdown_animated";
 import { TextShadow } from "./components/TextShadow";
 import TodoList from "./components/TodoList";
+import Stopwatch from "./components/Stopwatch";
+import DigitalWatch from "./components/DigitalWatch";
+import Calculator from "./components/Calculator";
 function App() {
   return (
     <div className=" container">
       {/* <FormSubmit/> */}
       {/* <TextShadow /> */}
-      <TodoList/>
+      <TodoList />
+      <Stopwatch />
+      <DigitalWatch />
+      <Calculator/>
       {/* <SliderCard /> */}
       {/* <FormComponent /> */}
       {/* <Form/> */}
