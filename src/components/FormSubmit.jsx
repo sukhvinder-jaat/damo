@@ -5,6 +5,7 @@ export const FormSubmit = () => {
     Name: "",
     email: "",
     number: "",
+    tick: "",
   });
   const userInput = (e) => {
     const myName = e.target.name;
@@ -13,7 +14,7 @@ export const FormSubmit = () => {
   };
   const Formsubmission = (i) => {
     i.preventDefault();
-    setData({ Name: "", email: "", number: "" });
+    setData({ Name: "", email: "", number: "",selectt:"",tick: "" });
     console.log(myData);
   };
   return (
@@ -28,7 +29,7 @@ export const FormSubmit = () => {
               onChange={userInput}
               type="text"
               name="Name"
-              value={myData.name}
+              value={myData.Name}
             />
           </div>
           <div>
@@ -43,17 +44,33 @@ export const FormSubmit = () => {
             />
           </div>
           <div>
-            <label htmlFor="number" className=" pe-4">
-              Number
+            <label htmlFor="checkbox" className=" pe-4">
+              number
             </label>
             <input
               onChange={userInput}
               type="number"
               name="number"
-              value={myData.number}
+              checked={myData.number}
             />
           </div>
-
+           <div>
+            <label htmlFor="checkbox" className=" pe-4">
+              check
+            </label>
+            <input
+              id="checkbox"
+              onChange={userInput}
+              type="checkbox"
+              name="tick"
+              checked={myData.tick}
+            />
+          </div>
+          <select name="selectt" value={myData.selectt} onChange={userInput}>
+            <option value="ashok">ashok</option>
+            <option value="ankit">ankit</option>
+            <option value="ravi">ravi</option>
+          </select>
           <button type="submit">Submit</button>
         </form>
       </Container>

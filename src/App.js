@@ -10,15 +10,24 @@ import TodoList from "./components/TodoList";
 import Stopwatch from "./components/Stopwatch";
 import DigitalWatch from "./components/DigitalWatch";
 import Calculator from "./components/Calculator";
+import Counter from "./components/Counter";
+import Question from "./components/Question";
+import QuestionPaper from "./components/QuestionPaper";
+import QuizPage from "./components/QuizPage";
+import ScrollToBottomButton from "./components/ScrollToBottomButton";
 function App() {
   return (
     <div className=" container">
-      {/* <FormSubmit/> */}
+      <ScrollToBottomButton />
+      {/* <FormSubmit /> */}
+      {/* <Counter /> */}
+      {/* <QuizPage/> */}
+      {/* <QuestionPaper/> */}
       {/* <TextShadow /> */}
-      <TodoList />
-      <Stopwatch />
-      <DigitalWatch />
-      <Calculator/>
+      {/* <TodoList /> */}
+      {/* <Stopwatch /> */}
+      {/* <DigitalWatch /> */}
+      {/* <Calculator/> */}
       {/* <SliderCard /> */}
       {/* <FormComponent /> */}
       {/* <Form/> */}

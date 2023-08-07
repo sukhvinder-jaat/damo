@@ -1,5 +1,7 @@
-.App {
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Roboto Slab' !important;
 }
 
 .dropdown {
@@ -110,7 +112,6 @@ body {
       #f5f5f5 77%,
       #cecece 100%);
   font-family: "Days One", sans-serif;
-  overflow: hidden;
   padding: 0;
   margin: 0;
   height: 100%;
@@ -413,10 +414,12 @@ a {
 
 .input {
   color: #333;
+  min-height: 20px;
 }
 
 .result {
   color: #007bff;
+  line-height: normal;
 }
 
 .buttons {
@@ -463,6 +466,10 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+button {
+  border: none !important;
 }
 
 .btn {

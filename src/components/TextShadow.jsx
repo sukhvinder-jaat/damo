@@ -4,7 +4,7 @@ export const TextShadow = () => {
   return (
     <>
       <Container className=" d-flex justify-content-center align-items-center">
-        <a href="#" className="text-type-animation">textshadow</a>
+        <p className="text-type-animation">textshadow</p>
       </Container>
     </>
   );
