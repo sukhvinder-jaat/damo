@@ -15,10 +15,13 @@ import Question from "./components/Question";
 import QuestionPaper from "./components/QuestionPaper";
 import QuizPage from "./components/QuizPage";
 import ScrollToBottomButton from "./components/ScrollToBottomButton";
+import Contex from "./components/Contex";
+import { SlickSlider } from "./components/SlickSlider";
+import JsPractis from "./components/JsPractis";
 function App() {
   return (
     <div className=" container">
-      <ScrollToBottomButton />
+      {/* <ScrollToBottomButton /> */}
       {/* <FormSubmit /> */}
       {/* <Counter /> */}
       {/* <QuizPage/> */}
@@ -33,6 +36,10 @@ function App() {
       {/* <Form/> */}
       {/* <AnimationDamo /> */}
       {/* <Dropdown_animated /> */}
+      {/* <Contex /> */}
+      {/* <SwiperSlider /> */}
+      {/* <SlickSlider/> */}
+      <JsPractis />
     </div>
   );
 }
