@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -20,6 +21,7 @@
     "slick": "^1.12.2",
     "slick-carousel": "^1.8.1",
     "slick-slider": "^1.8.2",
+    "sweetalert2": "^11.7.32",
     "swiper": "^6.8.4",
     "web-vitals": "^2.1.4"
   },

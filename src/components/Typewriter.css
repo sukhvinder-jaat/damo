@@ -1,0 +1,26 @@
+/* Typewriter.css */
+.typewriter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Adjust background color as needed */
+}
+
+.typewriter-text {
+  border-right: 2px solid #000;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(40, end);
+  font-size: 18px;
+  font-family: "Arial", sans-serif; /* Adjust font and size as needed */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

@@ -488,7 +488,7 @@ button {
 } */
 
 /*------------------------------ slick slider------------------------------ */
-.slickBox {
+/* .slickBox {
   border: 2px solid black;
   height: 200px;
   background: yellow;
@@ -499,4 +499,31 @@ button {
   transform: scale(1.1);
   margin-left: 20px;
   margin-right: 20px;
+} */
+
+/* color */
+/* .text-red {
+  color: red;
+}
+.text-green {
+  color: greenyellow;
+}
+.text-blue {
+  color: blue;
+} */
+.h-0 {
+  height: 0 !important;
+}
+.pointer {
+  cursor: pointer;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.dropBorder {
+  border: 2px solid white;
+}
+.max-w-80 {
+  max-width: 180px;
+  padding-left: 20px;
 }

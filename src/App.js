@@ -18,6 +18,13 @@ import ScrollToBottomButton from "./components/ScrollToBottomButton";
 import Contex from "./components/Contex";
 import { SlickSlider } from "./components/SlickSlider";
 import JsPractis from "./components/JsPractis";
+import Quib from "./components/Quib";
+import ManyNumber from "./components/ManyNumber";
+import SkipAdd from "./components/SkipAdd";
+import InTouch from "./components/InTouch";
+import Typewriter from "./components/Typewriter";
+import Color from "./components/Color";
+import ClickChange from "./components/ClickChange";
 function App() {
   return (
     <div className=" container">
@@ -39,7 +46,14 @@ function App() {
       {/* <Contex /> */}
       {/* <SwiperSlider /> */}
       {/* <SlickSlider/> */}
-      <JsPractis />
+      {/* <JsPractis />
+      <Quib />
+      <ManyNumber /> */}
+      {/* <SkipAdd /> */}
+      {/* <InTouch/> */}
+      {/* <Typewriter /> */}
+      {/* <Color /> */}
+      <ClickChange />
     </div>
   );
 }
